@@ -25,8 +25,9 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 
 		sampleModelDao = ((TwitterApp) getApplicationContext()).getMyDatabase().sampleModelDao();
 
-		AsyncTask.execute(() -> sampleModelDao.insertModel(sampleModel));
+
 	}
+
 
 
 	// Inflate the menu; this adds items to the action bar if it is present.
